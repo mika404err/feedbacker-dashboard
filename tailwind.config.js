@@ -310,10 +310,10 @@ export default {
       DEFAULT: '1',
     },
     fontFamily: {
-      regular: ['RobotoRegular'],
-      medium: ['RobotoMedium'],
-      bold: ['RobotoBold'],
-      black: ['RobotoBlack'],
+      regular: ['RobotoRegular', 'sans-serif'],
+      medium: ['RobotoMedium', 'sans-serif'],
+      bold: ['RobotoBold', 'sans-serif'],
+      black: ['RobotoBlack', 'sans-serif'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
